@@ -1,0 +1,24 @@
+struct Time
+{
+    unsigned long long time_stamp;
+};
+
+struct ImgHeader
+{
+    unsigned long long seq;
+    Time stamp;
+    string frame_id;
+};
+
+struct ImgMsg
+{
+    ImgHeader header;
+    unsigned long long height;
+    unsigned long long width;
+    string encoding;
+    unsigned long long is_bigendian;
+    unsigned long long step;
+
+    sequence<octet> data;
+
+};

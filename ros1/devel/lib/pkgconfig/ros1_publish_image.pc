@@ -1,0 +1,8 @@
+prefix=/home/yuehu/Desktop/comm_performance_compare/ros1/devel
+
+Name: ros1_publish_image
+Description: Description of ros1_publish_image
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yuehu/Desktop/comm_performance_compare/ros1/devel/lib 
+Requires: 

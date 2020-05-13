@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Receiver.h
+iostream
+-
+vector
+-
+string
+-
+util.h
+../include/util.h
+zmq.h
+-
+
+../include/util.h
+image.pb.h
+../include/image.pb.h
+
+/home/yuehu/Desktop/comm_performance_compare/zmq+protobuf/src/Receiver.cpp
+Receiver.h
+/home/yuehu/Desktop/comm_performance_compare/zmq+protobuf/src/Receiver.h
+assert.h
+-
+cstring
+-
+

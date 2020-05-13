@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (read_image) JobQueued: {'identifier': 'read_image', 'dependencies': OrderedDict()}
+[0.000523] (read_image) JobStarted: {'identifier': 'read_image'}
+[0.012445] (read_image) JobProgress: {'identifier': 'read_image', 'progress': 'cmake'}
+[0.012872] (read_image) Command: {'cmd': ['/usr/bin/cmake', '/home/yuehu/Desktop/comm_performance_compare/ros2/read_image', '-DCMAKE_INSTALL_PREFIX=/home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image'], 'cwd': '/home/yuehu/Desktop/comm_performance_compare/ros2/build/read_image', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('SDKMAN_VERSION', '5.8.1+484'), ('USER', 'yuehu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SESSION_TYPE', 'x11'), ('SSH_AGENT_PID', '4229'), ('SHLVL', '1'), ('UNITY_PANEL_TRAY_DISABLE', ''), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/eloquent/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yuehu'), ('OLDPWD', '/home/yuehu/Desktop/comm_performance_compare/ros2'), ('LESS', '-R'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/yuehu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('GRADLE_HOME', '/home/yuehu/.sdkman/candidates/gradle/current'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'yuehu'), ('GTK_IM_MODULE', 'fcitx'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '2'), ('USERNAME', 'yuehu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('OSPL_ERRORFILE', '<stderr>'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/yuehu/.sdkman/candidates/gradle/current/bin:/home/yuehu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yuehu-ThinkPad-T470p:@/tmp/.ICE-unix/4133,unix/yuehu-ThinkPad-T470p:/tmp/.ICE-unix/4133'), ('SDKMAN_CANDIDATES_DIR', '/home/yuehu/.sdkman/candidates'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/22e2f082_b762_45af_9211_377d08e68f39'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OSPL_HOME', '/usr'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.699'), ('XMODIFIERS', '@im=fcitx'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/yuehu/.sdkman'), ('SDKMAN_PLATFORM', 'Linux64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'fcitx'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yuehu/Desktop/comm_performance_compare/ros2/build/read_image'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('ROS_HOSTNAME', 'yuehu-ThinkPad-T470p'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.064959] (read_image) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[0.099854] (-) TimerEvent: {}
+[0.112963] (read_image) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[0.116662] (read_image) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.180294] (read_image) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.180817] (read_image) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199985] (-) TimerEvent: {}
+[0.247119] (read_image) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.252065] (read_image) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.300086] (-) TimerEvent: {}
+[0.400411] (-) TimerEvent: {}
+[0.437817] (read_image) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.439793] (read_image) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500535] (-) TimerEvent: {}
+[0.511725] (read_image) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.512306] (read_image) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.583554] (read_image) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.587917] (read_image) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.600630] (-) TimerEvent: {}
+[0.700921] (-) TimerEvent: {}
+[0.801204] (-) TimerEvent: {}
+[0.901447] (read_image) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.901602] (-) TimerEvent: {}
+[0.904039] (read_image) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.930463] (read_image) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.930630] (read_image) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.001759] (-) TimerEvent: {}
+[1.102027] (-) TimerEvent: {}
+[1.114071] (read_image) StdoutLine: {'line': b'-- Found rclcpp: 0.8.3 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.132474] (read_image) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.1 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.172408] (read_image) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.174716] (read_image) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.176092] (read_image) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.202115] (-) TimerEvent: {}
+[1.245412] (read_image) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.245944] (read_image) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.302231] (-) TimerEvent: {}
+[1.313924] (read_image) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.314248] (read_image) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.368247] (read_image) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.368493] (read_image) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.402357] (-) TimerEvent: {}
+[1.430796] (read_image) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.431660] (read_image) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.465612] (read_image) StdoutLine: {'line': b'-- Found rclcpp_components: 0.8.3 (/opt/ros/eloquent/share/rclcpp_components/cmake)\n'}
+[1.469704] (read_image) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)\n'}
+[1.491161] (read_image) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)\n'}
+[1.502453] (-) TimerEvent: {}
+[1.529590] (read_image) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "3.2.0") \n'}
+[1.530692] (read_image) StderrLine: {'line': b'CMake Error at /opt/ros/eloquent/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:52 (message):\n'}
+[1.530879] (read_image) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'cv_bridge' was not\n"}
+[1.530993] (read_image) StderrLine: {'line': b'  found before\n'}
+[1.531059] (read_image) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.531123] (read_image) StderrLine: {'line': b'  CMakeLists.txt:30 (ament_target_dependencies)\n'}
+[1.531185] (read_image) StderrLine: {'line': b'\n'}
+[1.531248] (read_image) StderrLine: {'line': b'\n'}
+[1.532103] (read_image) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.532211] (read_image) StdoutLine: {'line': b'See also "/home/yuehu/Desktop/comm_performance_compare/ros2/build/read_image/CMakeFiles/CMakeOutput.log".\n'}
+[1.532291] (read_image) StdoutLine: {'line': b'See also "/home/yuehu/Desktop/comm_performance_compare/ros2/build/read_image/CMakeFiles/CMakeError.log".\n'}
+[1.536046] (read_image) CommandEnded: {'returncode': 1}
+[1.536686] (read_image) JobEnded: {'identifier': 'read_image', 'rc': 1}
+[1.547231] (-) EventReactorShutdown: {}

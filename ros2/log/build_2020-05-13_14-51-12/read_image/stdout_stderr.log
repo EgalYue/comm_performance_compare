@@ -1,0 +1,43 @@
+[0.027s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.213s] -- Found rclcpp: 0.8.3 (/opt/ros/eloquent/share/rclcpp/cmake)
+[0.225s] -- Found rosidl_adapter: 0.8.1 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.255s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[0.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.285s] -- Found rclcpp_components: 0.8.3 (/opt/ros/eloquent/share/rclcpp_components/cmake)
+[0.287s] -- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+[0.304s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[0.482s] -- Configuring done
+[0.524s] -- Generating done
+[0.525s] -- Build files have been written to: /home/yuehu/Desktop/comm_performance_compare/ros2/build/read_image
+[0.569s] [35m[1mScanning dependencies of target img_publisher[0m
+[0.569s] [35m[1mScanning dependencies of target img_subscriber[0m
+[0.599s] [ 25%] [32mBuilding CXX object CMakeFiles/img_publisher.dir/src/img_publisher.cpp.o[0m
+[0.602s] [ 50%] [32mBuilding CXX object CMakeFiles/img_subscriber.dir/src/img_subscriber.cpp.o[0m
+[3.133s] [ 75%] [32m[1mLinking CXX executable img_publisher[0m
+[3.331s] [ 75%] Built target img_publisher
+[3.562s] [100%] [32m[1mLinking CXX executable img_subscriber[0m
+[3.765s] [100%] Built target img_subscriber
+[3.877s] [100%] Built target img_publisher
+[3.877s] [100%] Built target img_subscriber
+[3.895s] [36mInstall the project...[0m
+[3.904s] -- Install configuration: ""
+[3.904s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/lib/read_image/img_publisher
+[3.905s] -- Set runtime path of "/home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/lib/read_image/img_publisher" to ""
+[3.905s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/lib/read_image/img_subscriber
+[3.906s] -- Set runtime path of "/home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/lib/read_image/img_subscriber" to ""
+[3.906s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/ament_index/resource_index/package_run_dependencies/read_image
+[3.906s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/ament_index/resource_index/parent_prefix_path/read_image
+[3.906s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/environment/ament_prefix_path.sh
+[3.906s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/environment/ament_prefix_path.dsv
+[3.906s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/environment/path.sh
+[3.906s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/environment/path.dsv
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/local_setup.bash
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/local_setup.sh
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/local_setup.zsh
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/local_setup.dsv
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/package.dsv
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/ament_index/resource_index/packages/read_image
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/cmake/read_imageConfig.cmake
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/cmake/read_imageConfig-version.cmake
+[3.907s] -- Installing: /home/yuehu/Desktop/comm_performance_compare/ros2/install/read_image/share/read_image/package.xml

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libImgMsg_lib.a  CMakeFiles/ImgMsg_lib.dir/ImgMsg.cxx.o
+/usr/bin/ranlib libImgMsg_lib.a

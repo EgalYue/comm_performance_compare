@@ -1,0 +1,7 @@
+[0.331s] CMake Error at /opt/ros/eloquent/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:52 (message):
+[0.331s]   ament_target_dependencies() the passed package name 'cv_bridge' was not
+[0.332s]   found before
+[0.332s] Call Stack (most recent call first):
+[0.332s]   CMakeLists.txt:30 (ament_target_dependencies)
+[0.332s] 
+[0.332s] 

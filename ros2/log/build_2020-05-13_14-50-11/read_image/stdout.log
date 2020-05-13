@@ -1,0 +1,12 @@
+[0.029s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.214s] -- Found rclcpp: 0.8.3 (/opt/ros/eloquent/share/rclcpp/cmake)
+[0.225s] -- Found rosidl_adapter: 0.8.1 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.255s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[0.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.284s] -- Found rclcpp_components: 0.8.3 (/opt/ros/eloquent/share/rclcpp_components/cmake)
+[0.286s] -- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+[0.304s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[0.332s] -- Configuring incomplete, errors occurred!
+[0.332s] See also "/home/yuehu/Desktop/comm_performance_compare/ros2/build/read_image/CMakeFiles/CMakeOutput.log".
+[0.332s] See also "/home/yuehu/Desktop/comm_performance_compare/ros2/build/read_image/CMakeFiles/CMakeError.log".

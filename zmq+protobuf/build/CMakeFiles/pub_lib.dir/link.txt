@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpub_lib.a  CMakeFiles/pub_lib.dir/src/Publisher.cpp.o
+/usr/bin/ranlib libpub_lib.a

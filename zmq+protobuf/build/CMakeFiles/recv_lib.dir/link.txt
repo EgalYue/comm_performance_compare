@@ -1,0 +1,2 @@
+/usr/bin/ar qc librecv_lib.a  CMakeFiles/recv_lib.dir/src/Receiver.cpp.o
+/usr/bin/ranlib librecv_lib.a
